@@ -1,0 +1,178 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(184, 170, 190), rgb(96, 122, 134));
+    
+}
+ div{
+    display: flex;    
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between; 
+    top: 50%;
+    left: 50%;
+    background-color: rgba(5, 63, 36, 0.685);
+    transform: translate(-70%,-70%);
+    padding: 60px 50px 113px;
+    border-radius: 15px;
+    color: #fff;            
+ 
+
+  } 
+/* 
+  main .div .naotenhologin{
+    top: 40%;
+} */
+
+
+  .naotenhologin{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    /* text-decoration: none; */
+    font-size: 1.1rem;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 1.6rem;
+    color:red;
+
+}
+
+input{
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius:9px;
+    margin: 5px 0 0 0;
+}
+.inputSubmit{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    
+    
+}
+.inputSubmit:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+div .sair{
+    display: flex;    
+    position: absolute;
+
+    border-radius: 10px;
+    padding: 15px;
+    margin: 22px;
+    top: 95%;
+    text-decoration: none;
+    background-color: rgb(180, 180, 176);
+} 
+
+
+
+
+
+ 
+
+
+@media (max-width: 415px){
+     div {
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        background-color: rgba(5, 63, 36, 0.685);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 59px 45px 64px;
+        border-radius: 15px;
+        color: #fff;
+    } 
+
+    div .sair{
+        /* display: flex;     */
+        /* position: absolute; */
+    
+        /* border-radius: 10px; */
+        /* padding: 15px; */
+        margin: 30px;
+        
+        /* text-decoration: none; */
+        /* background-color: rgb(180, 180, 176); */
+        top: 95%;
+        left: 36%;
+    } 
+
+    h1{
+        text-align: center;
+        font-size: 1.6rem;
+        color:rgba(199, 183, 183, 0.61);
+
+    }
+
+    /* main .div .naotenhologin{
+        top: 40%;
+    } */
+
+    .naotenhologin{
+        position: absolute;
+        top: 80%;
+        left: 63%;
+        background-color: blueviolet;
+        color: white;
+        /* text-decoration: none; */
+        font-size: 0.9rem;
+      }
+
+    input{
+        padding: 12px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius:9px;
+        margin: 5px 0 0 0;
+    }
+    .inputSubmit{
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px;
+        width: 90%;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        
+    }
+    .inputSubmit:hover{
+        background-color: deepskyblue;
+        cursor: pointer;
+    }
+
+    .piscando {
+        animation: piscar 1s infinite;
+      }
+
+    /* Definir a animação */
+    @keyframes piscar {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0.5;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+
+
+}
